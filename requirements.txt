@@ -1,0 +1,23 @@
+# ============================================================
+# Polyp Segmentation — requirements.txt
+# Cài đặt: pip install -r requirements.txt
+
+# --- Deep learning ------------------------------------------------------
+torch>=2.0.0
+torchvision>=0.15.0
+
+# --- Xử lý ảnh & augmentation ------------------------------------------
+albumentations>=1.4.0
+opencv-python-headless>=4.9.0
+numpy>=1.26.0
+
+# --- Trực quan hóa & bảng kết quả --------------------------------------
+matplotlib>=3.8.0
+pandas>=2.0.0
+
+# --- Ứng dụng demo ------------------------------------------------------
+streamlit>=1.36.0
+
+# --- Jupyter Notebook ---------------------------------------------------
+notebook>=7.0.0
+ipykernel>=6.29.0
